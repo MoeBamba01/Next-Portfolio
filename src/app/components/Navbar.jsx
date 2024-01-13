@@ -30,7 +30,7 @@ const Navbar = () => {
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold "
         >
-          M<span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">B</span>
+          M<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">B</span>
         </Link>
         <div className="mobile-menu block md:hidden">
           {!navbarOpen ? (
