@@ -6,6 +6,23 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 
 const HeroSection = () => {
+  const handleDownloadCV = () => {
+    // Assuming your CV file is in the public folder
+    const cvFileName = "Mouhamadou-Bamba-Djigal-Resume.pdf";
+    const cvFilePath = `/assets/${cvFileName}`;
+    // Create an anchor element
+    const anchor = document.createElement("a");
+
+    // Set the href attribute to the path of your CV file
+    anchor.href = cvFilePath;
+
+    // Set the download attribute with the desired file name
+    anchor.download = "Moe_Bamba_CV.pdf";
+
+    // Simulate a click on the anchor element to trigger the download
+    anchor.click();
+  };
+
   return (
     <section className="lg:py-16">
       <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -15,11 +32,11 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-3 text-3xl sm:text-4xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
-              Hi, Moe Bamba Here I'm a{" "}
+              Hi, I'm Moe Bamba a
+              <br />
             </span>
-            <br></br>
             <TypeAnimation
               sequence={[
                 "Fullstack Developer",
@@ -47,13 +64,15 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
+        href="/"
+        onClick={handleDownloadCV}
+        className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+      >
+        <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+          Download CV
+        </span>
+      </Link>
+            
           </div>
         </motion.div>
         <motion.div
