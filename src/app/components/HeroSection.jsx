@@ -7,19 +7,11 @@ import Link from "next/link";
 
 const HeroSection = () => {
   const handleDownloadCV = () => {
-    // Assuming your CV file is in the public folder
     const cvFileName = "Mouhamadou-Bamba-Djigal-Resume.pdf";
     const cvFilePath = `/assets/${cvFileName}`;
-    // Create an anchor element
     const anchor = document.createElement("a");
-
-    // Set the href attribute to the path of your CV file
     anchor.href = cvFilePath;
-
-    // Set the download attribute with the desired file name
     anchor.download = "Moe_Bamba_CV.pdf";
-
-    // Simulate a click on the anchor element to trigger the download
     anchor.click();
   };
 
