@@ -32,7 +32,7 @@ const HeroSection = () => {
           transition={{ duration: 0.5 }}
           className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
         >
-          <h1 className="text-white mb-3 text-3xl sm:text-4xl lg:text-8xl lg:leading-normal font-extrabold">
+          <h1 className="text-white mb-3 text-3xl sm:text-4xl lg:text-5xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hi, I'm Moe Bamba, a
               <br />
@@ -54,7 +54,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Welcome to my world of web development and design. I'm Moe Bamba, a Full-Stack MERN Developer and Graphic Designer, specializing in crafting seamless digital experiences using Next.js. Let's turn ideas into reality.
+          Welcome to my world of web development and design. I'm Mouhamadou Bamba Djigal, a Full-Stack MERN Developer and Graphic Designer, specializing in crafting seamless digital experiences using Next.js. Let's turn ideas into reality.
           </p>
           <div>
             <Link
