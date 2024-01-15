@@ -16,6 +16,7 @@ const TAB_DATA = [
             <li>Express</li>
             <li>Dart</li>
             <li>FLutter</li>
+            <li>Python</li>
             <li>Adobe Illustrator</li>
             </ul>
         )
