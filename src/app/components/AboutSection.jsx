@@ -38,7 +38,8 @@ const TAB_DATA = [
             <ul className='list-disk pl-2'>
             <li> Gomycode Fullstack Js Bootcamp </li>
             <li>AWS Cloud Practitionner</li>
-            <li>Python Developer</li>
+            <li>CS50 Introduction to Python</li>
+            <li>ISTQB Software Testing</li>
             </ul>
         )
     },

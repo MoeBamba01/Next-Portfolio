@@ -11,7 +11,7 @@ const HeroSection = () => {
     const cvFilePath = `/assets/${cvFileName}`;
     const anchor = document.createElement("a");
     anchor.href = cvFilePath;
-    anchor.download = "Moe_Bamba_CV.pdf";
+    anchor.download = "Resume MBD.pdf";
     anchor.click();
   };
 
