@@ -25,12 +25,12 @@ const projectsData = [
     },
     {
       id: 3,
-      title: "Movie List App",
-      description: "A Movie LIst App Buit WIth React",
-      image: "/images/Projects/Movie-list.png",
+      title: "Notes App",
+      description: "A Fullstack Notes App built with MERN Technology",
+      image: "/images/Projects/Notes.png",
       tag: ["All", "Web"],
-      gitUrl: "https://github.com/MoeBamba01/React-Hooks.git",
-      previewUrl: "/",
+      gitUrl: "https://github.com/MoeBamba01/Notes-App-Front",
+      previewUrl: "https://notes-app-ebon-mu.vercel.app/",
     },
     {
       id: 4,
