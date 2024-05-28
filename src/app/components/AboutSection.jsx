@@ -62,7 +62,7 @@ const AboutSection = () => {
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
                 <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                 <p className='text-base lg:text-lg '>
-                    I'm a versatile full-stack web developer with and a mobile developper. My expertise extends beyond code – as a graphic designer, I seamlessly blend functionality with visually captivating design. With a keen eye for detail and a commitment to user-centric experiences, I bring ideas to life through the synergy of technology and creativity. Explore my portfolio and witness the seamless fusion of innovation and design in every project.
+                    I'm a versatile full-stack developer with and a Software Tester. My expertise extends beyond code – as a graphic designer and tester QA, I seamlessly blend functionality with visually captivating design. With a keen eye for detail and a commitment to user-centric experiences, I bring ideas to life through the synergy of technology and creativity. Explore my portfolio and witness the seamless fusion of innovation and design in every project.
                 </p>
                 <div className='flex flex-row mt-8'>
                     <TabButton selectTab={() => handleTabChange("skills")} 

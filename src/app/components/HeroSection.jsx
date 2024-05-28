@@ -36,7 +36,7 @@ const HeroSection = () => {
                 1000,
                 "Graphic Designer",
                 1000,
-                "Mobile Developer",
+                "Software Tester",
                 1000,
                 "Web dev Coach",
                 1000,
@@ -47,7 +47,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Welcome to my world of web development and design. I'm Mouhamadou Bamba Djigal, a Full-Stack MERN Developer and Graphic Designer, specializing in crafting seamless digital experiences using Next.js. Let's turn ideas into reality.
+          Welcome to my world of web development design and software testing. I'm Mouhamadou Bamba Djigal, a Full-Stack MERN Developer a Graphic Designer and a QA Tester specializing in crafting seamless digital experiences using Next.js. Let's turn ideas into reality.
           </p>
           <div>
             <Link
