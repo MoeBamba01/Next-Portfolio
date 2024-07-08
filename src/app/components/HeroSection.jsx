@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   const handleDownloadCV = () => {
-    const cvFileName = "Mouhamadou-Bamba-Djigal-Resume.pdf";
+    const cvFileName = "Resume Mouhamadou_B_Djigal (1).pdf";
     const cvFilePath = `/assets/${cvFileName}`;
     const anchor = document.createElement("a");
     anchor.href = cvFilePath;
